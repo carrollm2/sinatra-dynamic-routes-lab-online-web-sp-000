@@ -11,7 +11,8 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
-    count = params[:number].to_i {puts "hello"}
+    count = params[:number].to_i
+    count.times {"#{count}"}
   end
 
 end
