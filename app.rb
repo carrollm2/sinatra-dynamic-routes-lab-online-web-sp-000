@@ -15,7 +15,7 @@ class App < Sinatra::Base
     # count.times do
     #   phrase * number.to_i
     # end
-    "#{phrase * number.to_i}""
+    "#{phrase * number.to_i}"
 
   end
 
