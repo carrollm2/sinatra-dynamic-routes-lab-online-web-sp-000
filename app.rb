@@ -14,7 +14,6 @@ class App < Sinatra::Base
     count = params[:number].to_i
     puts "#{count}"
     puts "#{count}"
-    puts "#{count}"
   end
 
 end
