@@ -15,11 +15,12 @@ class App < Sinatra::Base
     # count.times do
     #   phrase * number.to_i
     # end
-    result = ""
-    number.to_i.times do |i|
-      result += phrase.upcase
-    end
-    result
+    # result = ""
+    # number.to_i.times do |i|
+    #   result += phrase.upcase
+    # end
+    # result
+    params["phrase"] * params[:number].to_i
 
   end
 
